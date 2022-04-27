@@ -2,8 +2,8 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>tesspn__c</fullName>
     <externalId>false</externalId>
-    <label>test</label>
-    <length>60</length>
+    <label>tesspn</label>
+    <length>70</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
