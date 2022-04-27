@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_a_new_Relation_Level_Account_cdh</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>New relation level customer (Customer Master)</masterLabel>
+    <openType>noSidebar</openType>
+    <page>crm_Request_Relation_Level_Customer</page>
+    <protected>false</protected>
+</WebLink>

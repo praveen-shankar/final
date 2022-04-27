@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>no_auto_response__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>The customer does not want autoresponse email sent to him/her for any of the cases being created
+
+
+CSPhase2 Dinesh Label Change 26/12/2016</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mark here if the customer doesn&apos;t want autoresponses on email</inlineHelpText>
+    <label>Do not want Autoresponse</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

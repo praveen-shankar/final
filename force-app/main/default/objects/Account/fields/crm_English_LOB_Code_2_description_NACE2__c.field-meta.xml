@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_English_LOB_Code_2_description_NACE2__c</fullName>
+    <description>Custom - Felles Kundebilde dataelements</description>
+    <externalId>false</externalId>
+    <label>English LOB Code 2 description, NACE2</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

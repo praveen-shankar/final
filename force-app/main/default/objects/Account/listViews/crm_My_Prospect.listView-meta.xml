@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_My_Prospect</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Orga__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>crm_bus_addr_City__c</columns>
+    <columns>crm_bus_addr_Country__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.crm_Prospect</value>
+    </filters>
+    <label>My Prospects</label>
+</ListView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Transition_Support__c</fullName>
+    <externalId>false</externalId>
+    <label>Transition Support</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bring/Posten</fullName>
+                <default>false</default>
+                <label>Bring/Posten</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Border using KGH</fullName>
+                <default>false</default>
+                <label>Border using KGH</label>
+            </value>
+            <value>
+                <fullName>Other Party</fullName>
+                <default>false</default>
+                <label>Other Party</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

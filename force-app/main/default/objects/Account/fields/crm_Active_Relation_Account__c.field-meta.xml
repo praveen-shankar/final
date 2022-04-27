@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Active_Relation_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field signifies that this is an Active relation accounts either imported as a part of data migration from Caesar or from interfaces with FKB/SAS Dwh/ICC/CDH.</description>
+    <externalId>false</externalId>
+    <label>Active Relation Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notconverted_to_Preparation</fullName>
+    <active>false</active>
+    <description>User cannot change the value from In Preparation to Not Converted</description>
+    <errorConditionFormula>AND (
+ISPICKVAL(PRIORVALUE(Customer_Converted__c),&quot;InPreparation&quot;),
+ ISPICKVAL(Customer_Converted__c,&quot;NotConverted&quot;)
+ 
+ )</errorConditionFormula>
+    <errorDisplayField>Customer_Converted__c</errorDisplayField>
+    <errorMessage>User cannot change the value from In Preparation to Not Converted</errorMessage>
+</ValidationRule>

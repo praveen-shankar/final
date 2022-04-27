@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaksjonskontakt__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>CSPhase2 Dinesh Label Change 26/12/2016</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Standard contact for transactions to Navison. This contacts email Address is applied to the transaction.</inlineHelpText>
+    <label>Transaction contact</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Value does not exist or does not match filter criteria</errorMessage>
+        <filterItems>
+            <field>Contact.Email</field>
+            <operation>notEqual</operation>
+            <value>&quot;&quot;</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.AccountId</field>
+            <operation>equals</operation>
+            <valueField>$Source.Id</valueField>
+        </filterItems>
+        <infoMessage>Displays contacts the customer who has an email address.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>AccountsContactTrans</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

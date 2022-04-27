@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChangeAdressCase</fullName>
+    <availability>online</availability>
+    <description>Creates a case, if url parameters contains a addressreference a changeaddress case is created</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New case</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>function gup( name ) 
+{ 
+name = name.replace(/[\[]/,&quot;\\\[&quot;).replace(/[\]]/,&quot;\\\]&quot;); 
+var regexS = &quot;[\\?&amp;]&quot;+name+&quot;=([^&amp;#]*)&quot;; 
+var regex = new RegExp( regexS ); 
+var results = regex.exec( window.location.href ); 
+if( results == null ) 
+return &quot;&quot;; 
+else 
+return results[1]; 
+} 
+
+var adressRef = gup(&quot;adresse&quot;); 
+var baseURL = &quot;500/e?retURL=%2F500%2Fo&amp;RecordType=01220000000AFLw&amp;ent=Case&quot;; 
+var URL = baseURL; 
+
+if(adressRef != &quot;&quot;) { 
+URL = URL + &quot;&amp;00N20000002o1fE=&quot; + adressRef; 
+URL += &quot;&amp;def_account_id={!Account.Id}&quot;;
+/*if(&quot;{!Account.Name}&quot; != &quot;&quot;) { 
+URL += &quot;&amp;cas4={!Account.Name}&quot;; 
+if({!Account.IsPersonAccount}) { 
+URL +=&quot;&amp;cas3={!Account.Name}&quot;; 
+} 
+} */
+} 
+
+if(baseURL != URL) { 
+window.location= URL; 
+} else { 
+window.location= &apos;setup/ui/recordtypeselect.jsp?ent=Case&amp;retURL=%2F001R000000e36RX&amp;save_new_url=%2F500%2Fe%3FretURL%3D%252F{!Account.Id}%26def_account_id%3D{!Account.Id}&amp;00N20000002o3aU=&amp;00N20000002o3aS=&amp;00N20000002o3aT=&amp;00N20000002o3aW=&amp;00N20000002o3aV=&apos;;
+}</url>
+</WebLink>

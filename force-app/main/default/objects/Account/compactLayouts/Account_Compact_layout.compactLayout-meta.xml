@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Compact_layout</fullName>
+    <fields>Name</fields>
+    <fields>crm_Group_KAM__c</fields>
+    <fields>crm_Company_Group_Name__c</fields>
+    <fields>crm_Revenue_This_Year__c</fields>
+    <fields>Phone</fields>
+    <fields>Orga__c</fields>
+    <fields>Customer_Converted__c</fields>
+    <label>Account Compact layout</label>
+</CompactLayout>

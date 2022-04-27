@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Conv_Customer_Conversion_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Conversion Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kun pakke til hentested</fullName>
+                <default>false</default>
+                <label>Kun pakke til hentested</label>
+            </value>
+            <value>
+                <fullName>Kun pakke til bedrift</fullName>
+                <default>false</default>
+                <label>Kun pakke til bedrift</label>
+            </value>
+            <value>
+                <fullName>Kun ekspress neste dag</fullName>
+                <default>false</default>
+                <label>Kun ekspress neste dag</label>
+            </value>
+            <value>
+                <fullName>Kun stykk og parti</fullName>
+                <default>false</default>
+                <label>Kun stykk og parti</label>
+            </value>
+            <value>
+                <fullName>Kun termo</fullName>
+                <default>false</default>
+                <label>Kun termo</label>
+            </value>
+            <value>
+                <fullName>Kun internasjonalt</fullName>
+                <default>false</default>
+                <label>Kun internasjonalt</label>
+            </value>
+            <value>
+                <fullName>Storst pa pakke til hentested</fullName>
+                <default>false</default>
+                <label>Størst på pakke til hentested</label>
+            </value>
+            <value>
+                <fullName>Storst pa pakke til bedrift</fullName>
+                <default>false</default>
+                <label>Størst på pakke til bedrift</label>
+            </value>
+            <value>
+                <fullName>Storst pa ekspress neste dag</fullName>
+                <default>false</default>
+                <label>Størst på ekspress neste dag</label>
+            </value>
+            <value>
+                <fullName>Storst pa Stykk og parti</fullName>
+                <default>false</default>
+                <label>Størst på Stykk og parti</label>
+            </value>
+            <value>
+                <fullName>Storst pa termo</fullName>
+                <default>false</default>
+                <label>Størst på termo</label>
+            </value>
+            <value>
+                <fullName>Storst pa internasjonal</fullName>
+                <default>false</default>
+                <label>Størst på internasjonal</label>
+            </value>
+            <value>
+                <fullName>Alt av pakker jevnt fordelt</fullName>
+                <default>false</default>
+                <label>Alt av pakker jevnt fordelt</label>
+            </value>
+            <value>
+                <fullName>Alt av pakker og gods jevnt fordelt</fullName>
+                <default>false</default>
+                <label>Alt av pakker og gods jevnt fordelt</label>
+            </value>
+            <value>
+                <fullName>Alt av pakker, gods og internasjonal</fullName>
+                <default>false</default>
+                <label>Alt av pakker, gods og internasjonal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

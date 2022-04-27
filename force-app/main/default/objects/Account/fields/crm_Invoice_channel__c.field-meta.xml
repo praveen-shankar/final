@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Invoice_channel__c</fullName>
+    <externalId>false</externalId>
+    <label>Invoice channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>letter</fullName>
+                <default>false</default>
+                <label>letter</label>
+            </value>
+            <value>
+                <fullName>e-mail</fullName>
+                <default>false</default>
+                <label>e-mail</label>
+            </value>
+            <value>
+                <fullName>EDI</fullName>
+                <default>false</default>
+                <label>EDI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

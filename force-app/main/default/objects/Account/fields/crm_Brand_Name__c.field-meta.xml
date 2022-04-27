@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Brand_Name__c</fullName>
+    <description>field for wave implementation
+
+CSPhase2 Dinesh Label Change 26/12/2016</description>
+    <externalId>false</externalId>
+    <label>Brand Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>COOP OBS</fullName>
+                <default>false</default>
+                <label>COOP OBS</label>
+            </value>
+            <value>
+                <fullName>Mega</fullName>
+                <default>false</default>
+                <label>Mega</label>
+            </value>
+            <value>
+                <fullName>Nille</fullName>
+                <default>false</default>
+                <label>Nille</label>
+            </value>
+            <value>
+                <fullName>Arbeids- og inkluderingsdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Labour and Social Inclusion</label>
+            </value>
+            <value>
+                <fullName>Utenriksdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Foreign Affairs</label>
+            </value>
+            <value>
+                <fullName>Barne-, likestillings- og inkluderingsdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Children, Equality and Social Inclusion</label>
+            </value>
+            <value>
+                <fullName>Fiskeri- og kystdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Fisheries and Coastal Affairs</label>
+            </value>
+            <value>
+                <fullName>Fornyings- og administrasjons- departementet</fullName>
+                <default>false</default>
+                <label>Ministry of Government Administration and Reform</label>
+            </value>
+            <value>
+                <fullName>Forsvarsdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Defence</label>
+            </value>
+            <value>
+                <fullName>Helse- og omsorgsdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Health</label>
+            </value>
+            <value>
+                <fullName>Justis- og politidepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Justice</label>
+            </value>
+            <value>
+                <fullName>Kommunal- og regional- departementet</fullName>
+                <default>false</default>
+                <label>Local and Regional Department</label>
+            </value>
+            <value>
+                <fullName>Kultur- og kirkedepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Culture and Church</label>
+            </value>
+            <value>
+                <fullName>Kunnskapsdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Competence</label>
+            </value>
+            <value>
+                <fullName>Landbruks- og matdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Agriculture and Food</label>
+            </value>
+            <value>
+                <fullName>Miljøverndepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Environment</label>
+            </value>
+            <value>
+                <fullName>Nærings- og handelsdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of commerce and trade</label>
+            </value>
+            <value>
+                <fullName>Olje- og energidepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Oil and Energy</label>
+            </value>
+            <value>
+                <fullName>Samferdselsdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Transport</label>
+            </value>
+            <value>
+                <fullName>Finansdepartementet</fullName>
+                <default>false</default>
+                <label>Ministry of Finance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

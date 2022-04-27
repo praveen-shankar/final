@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_system_update__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for force updates to fields maintained by eConnect data. Update of such fields is only allowed when is_system_update__c is checked.
+WF rule will uncheck it immediately after update.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>System field. Check to allow updates to fields maintained by eConnect.</inlineHelpText>
+    <label>Is System Update</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

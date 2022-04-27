@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_TA_supplier__c</fullName>
+    <externalId>false</externalId>
+    <label>TA supplier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consignor</fullName>
+                <default>false</default>
+                <label>Consignor</label>
+            </value>
+            <value>
+                <fullName>Edi- Soft Ticket</fullName>
+                <default>false</default>
+                <label>Edi- Soft Ticket</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Smartsend</fullName>
+                <default>false</default>
+                <label>Smartsend</label>
+            </value>
+            <value>
+                <fullName>Unifaun</fullName>
+                <default>false</default>
+                <label>Unifaun</label>
+            </value>
+            <value>
+                <fullName>Webshipr</fullName>
+                <default>false</default>
+                <label>Webshipr</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

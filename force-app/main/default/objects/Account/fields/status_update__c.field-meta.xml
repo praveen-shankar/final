@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>status_update__c</fullName>
+    <description>CSPhase2 Dinesh Label Change 26/12/2016</description>
+    <externalId>false</externalId>
+    <label>Status customer service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Never updated</fullName>
+                <default>true</default>
+                <label>Never updated</label>
+            </value>
+            <value>
+                <fullName>Updating</fullName>
+                <default>false</default>
+                <label>Updating</label>
+            </value>
+            <value>
+                <fullName>Ready for update</fullName>
+                <default>false</default>
+                <label>Ready for update</label>
+            </value>
+            <value>
+                <fullName>Last update failed</fullName>
+                <default>false</default>
+                <label>Last update failed</label>
+            </value>
+            <value>
+                <fullName>Inactive Customer</fullName>
+                <default>false</default>
+                <label>Inactive Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

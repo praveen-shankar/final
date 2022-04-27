@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Posten_Source_Comp_for_datarecord_ER__c</fullName>
+    <description>Custom - Felles Kundebilde dataelements</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ERP/Finance Posten Bring Company Description</inlineHelpText>
+    <label>Posten Source Company for datarecord</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

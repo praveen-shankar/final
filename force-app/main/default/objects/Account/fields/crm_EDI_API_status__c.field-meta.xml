@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_EDI_API_status__c</fullName>
+    <externalId>false</externalId>
+    <label>EDI Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ikke oppdatert</fullName>
+                <default>false</default>
+                <label>Ikke oppdatert</label>
+            </value>
+            <value>
+                <fullName>Oppdatert</fullName>
+                <default>false</default>
+                <label>Oppdatert</label>
+            </value>
+            <value>
+                <fullName>Tvetydig</fullName>
+                <default>false</default>
+                <label>Tvetydig</label>
+            </value>
+            <value>
+                <fullName>Ikke nok grunnlag</fullName>
+                <default>false</default>
+                <label>Ikke nok grunnlag</label>
+            </value>
+            <value>
+                <fullName>Ikke relevant</fullName>
+                <default>true</default>
+                <label>Ikke relevant</label>
+            </value>
+            <value>
+                <fullName>Ambiguous</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ambiguous</label>
+            </value>
+            <value>
+                <fullName>Converted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Converted</label>
+            </value>
+            <value>
+                <fullName>Ikke konvertert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ikke konvertert</label>
+            </value>
+            <value>
+                <fullName>Insufficient Data</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Insufficient Data</label>
+            </value>
+            <value>
+                <fullName>Konvertert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Konvertert</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Not Converted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Converted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

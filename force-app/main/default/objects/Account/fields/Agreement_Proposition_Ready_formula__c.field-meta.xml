@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_Proposition_Ready_formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>Parent.Agreement_Proposition_Ready__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Agreement Proposition Ready - F</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

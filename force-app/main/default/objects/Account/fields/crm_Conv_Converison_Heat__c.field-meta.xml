@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Conv_Converison_Heat__c</fullName>
+    <externalId>false</externalId>
+    <label>Conversion Heat</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Heat A - June 2019</fullName>
+                <default>false</default>
+                <label>Heat A - JUNI 2019</label>
+            </value>
+            <value>
+                <fullName>Heat B - September 2019</fullName>
+                <default>false</default>
+                <label>Heat B - SEPTEMBER  2019</label>
+            </value>
+            <value>
+                <fullName>Heat C - OKTOBER 2019</fullName>
+                <default>false</default>
+                <label>Heat C - OKTOBER 2019</label>
+            </value>
+            <value>
+                <fullName>Heat D - NOVEMBER 2019</fullName>
+                <default>false</default>
+                <label>Heat D - NOVEMBER 2019</label>
+            </value>
+            <value>
+                <fullName>Heat E - DESEMBER 2019</fullName>
+                <default>false</default>
+                <label>Heat E - DESEMBER 2019</label>
+            </value>
+            <value>
+                <fullName>Heat F - JANUAR 2020</fullName>
+                <default>false</default>
+                <label>Heat F - JANUAR 2020</label>
+            </value>
+            <value>
+                <fullName>Heat G - FEBRUAR 2020</fullName>
+                <default>false</default>
+                <label>Heat G - FEBRUAR 2020</label>
+            </value>
+            <value>
+                <fullName>Heat H - MARS 2020</fullName>
+                <default>false</default>
+                <label>Heat H - MARS 2020</label>
+            </value>
+            <value>
+                <fullName>Heat I - APRIL 2020</fullName>
+                <default>false</default>
+                <label>Heat I - APRIL 2020</label>
+            </value>
+            <value>
+                <fullName>Heat J - MAI 2020</fullName>
+                <default>false</default>
+                <label>Heat J - MAI 2020</label>
+            </value>
+            <value>
+                <fullName>Heat K - JUNI 2020</fullName>
+                <default>false</default>
+                <label>Heat K - JUNI 2020</label>
+            </value>
+            <value>
+                <fullName>Heat L - SEPTEMBER 2020</fullName>
+                <default>false</default>
+                <label>Heat L - SEPTEMBER 2020</label>
+            </value>
+            <value>
+                <fullName>Heat M - OKTOBER 2020</fullName>
+                <default>false</default>
+                <label>Heat M - OKTOBER 2020</label>
+            </value>
+            <value>
+                <fullName>Heat N - NOVEMBER 2020</fullName>
+                <default>false</default>
+                <label>Heat N - NOVEMBER 2020</label>
+            </value>
+            <value>
+                <fullName>Heat O - DESEMBER 2020</fullName>
+                <default>false</default>
+                <label>Heat O - DESEMBER 2020</label>
+            </value>
+            <value>
+                <fullName>Heat P - JANUAR 2021</fullName>
+                <default>false</default>
+                <label>Heat P - JANUAR 2021</label>
+            </value>
+            <value>
+                <fullName>Heat Q - FEBRUAR 2021</fullName>
+                <default>false</default>
+                <label>Heat Q - FEBRUAR 2021</label>
+            </value>
+            <value>
+                <fullName>Heat X - TBD</fullName>
+                <default>false</default>
+                <label>Heat X - TBD</label>
+            </value>
+            <value>
+                <fullName>Heat Y - No revenue or bankrupt</fullName>
+                <default>false</default>
+                <label>Heat Y - No revenue or bankrupt</label>
+            </value>
+            <value>
+                <fullName>SPN pilot A</fullName>
+                <default>false</default>
+                <label>SPN pilot A</label>
+            </value>
+            <value>
+                <fullName>SPN pilot B</fullName>
+                <default>false</default>
+                <label>SPN pilot B</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 01</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 01</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 02</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 02</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 03</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 03</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 04</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 04</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 05</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 05</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 06</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 06</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 07</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 07</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 08</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 08</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 09</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 09</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 10</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 10</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 11</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 11</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 12</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 12</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 13</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 13</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 14</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 14</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 15</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 15</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 16</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 16</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 17</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 17</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 18</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 18</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 19</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 19</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 20</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 20</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 21</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 21</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 22</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 22</label>
+            </value>
+            <value>
+                <fullName>Bulk conversion - Batch 23</fullName>
+                <default>false</default>
+                <label>Bulk conversion - Batch 23</label>
+            </value>
+            <value>
+                <fullName>Heat R - MARS 2021</fullName>
+                <default>false</default>
+                <label>Heat R - MARS 2021</label>
+            </value>
+            <value>
+                <fullName>Konverteres ikke i P11</fullName>
+                <default>false</default>
+                <label>Konverteres ikke i P11</label>
+            </value>
+            <value>
+                <fullName>Heat S - APRIL 2021</fullName>
+                <default>false</default>
+                <label>Heat S - APRIL 2021</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

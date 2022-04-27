@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_3rd_Party_Contract__c</fullName>
+    <externalId>false</externalId>
+    <label>3rd Party Contract</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NOL</fullName>
+                <default>false</default>
+                <label>NOL</label>
+            </value>
+            <value>
+                <fullName>Toplogic</fullName>
+                <default>false</default>
+                <label>Toplogic</label>
+            </value>
+            <value>
+                <fullName>Transportrådgiverne</fullName>
+                <default>false</default>
+                <label>Transport advisors</label>
+            </value>
+            <value>
+                <fullName>Visma</fullName>
+                <default>false</default>
+                <label>Visma</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Test_Trigger</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Conga Test Trigger</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://composer.congamerge.com
+?serverUrl={!API.Partner_Server_URL_370}
+&amp;id={!Account.Id}
+
+&amp;QueryId=[crossreference]a1H2X000008nixf,[opptyservicesalt1]a1H2X000008nixk,[vasalt1]a1H2X000008nixp,[surchargealt1]a1H2X000008nixu
+
+&amp;TemplateId=a0W2X00000QVaFy
+
+&amp;DefaultPDF=1
+
+&amp;Qvar0Id=a1H2X000008nvie
+&amp;Qvar0Format=10000
+
+&amp;CongaEmailTemplateId=a0V2X00000LHvxh
+&amp;EmailToId={!Account.Primary_contact__c}
+
+&amp;SC0=1
+&amp;SC1=SalesforceFile
+
+&amp;OFN=Dine rabattsatser
+
+&amp;UF0=1
+&amp;MFTS0=Is_Conversion_Email_Sent__c
+&amp;MFTSValue0=True</url>
+</WebLink>

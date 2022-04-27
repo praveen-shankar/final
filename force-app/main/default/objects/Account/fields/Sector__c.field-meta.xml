@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <description>For å holde på informasjon om kunders bransjetilhørighet
+
+
+CSPhase2 Dinesh Label Change 26/12/2016</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customers to industry</inlineHelpText>
+    <label>Sector</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Book and Paper</fullName>
+                <default>false</default>
+                <label>Book and Paper</label>
+            </value>
+            <value>
+                <fullName>e-Commerce</fullName>
+                <default>false</default>
+                <label>e-Commerce</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Sales_External_Segment_formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(Parent.RecordType.DeveloperName = &apos;crm_Party_level_Customer&apos; , text (Parent.crm_Sales_External_Segment__c),&apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sales External Segments Relation Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

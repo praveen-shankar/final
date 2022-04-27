@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>heat_i</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Customer_Price_Ready__c</columns>
+    <columns>Conversion_Ready__c</columns>
+    <columns>Agreement_Proposition_Ready__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Customer_Converted__c</field>
+        <operation>equals</operation>
+        <value>NotConverted,InPreparation</value>
+    </filters>
+    <label>NotConverted/inPrep</label>
+</ListView>

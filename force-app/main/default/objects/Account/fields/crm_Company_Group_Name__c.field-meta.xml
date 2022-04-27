@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Company_Group_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Company Group Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ABB</fullName>
+                <default>false</default>
+                <label>ABB</label>
+            </value>
+            <value>
+                <fullName>Active Brands</fullName>
+                <default>false</default>
+                <label>Active Brands</label>
+            </value>
+            <value>
+                <fullName>Aga</fullName>
+                <default>false</default>
+                <label>Aga</label>
+            </value>
+            <value>
+                <fullName>Ahlsell</fullName>
+                <default>false</default>
+                <label>Ahlsell</label>
+            </value>
+            <value>
+                <fullName>Aker Solutions</fullName>
+                <default>false</default>
+                <label>Aker Solutions</label>
+            </value>
+            <value>
+                <fullName>Akzo Nobel</fullName>
+                <default>false</default>
+                <label>Akzo Nobel</label>
+            </value>
+            <value>
+                <fullName>Alfa Laval</fullName>
+                <default>false</default>
+                <label>Alfa Laval</label>
+            </value>
+            <value>
+                <fullName>Alliance Healthcare</fullName>
+                <default>false</default>
+                <label>Alliance Healthcare</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>Amedia</fullName>
+                <default>false</default>
+                <label>Amedia</label>
+            </value>
+            <value>
+                <fullName>Apokjeden</fullName>
+                <default>false</default>
+                <label>Apokjeden</label>
+            </value>
+            <value>
+                <fullName>Arla Foods</fullName>
+                <default>false</default>
+                <label>Arla Foods</label>
+            </value>
+            <value>
+                <fullName>Assa Abloy</fullName>
+                <default>false</default>
+                <label>Assa Abloy</label>
+            </value>
+            <value>
+                <fullName>Astra Zeneca</fullName>
+                <default>false</default>
+                <label>Astra Zeneca</label>
+            </value>
+            <value>
+                <fullName>Atria</fullName>
+                <default>false</default>
+                <label>Atria</label>
+            </value>
+            <value>
+                <fullName>Autoliv</fullName>
+                <default>false</default>
+                <label>Autoliv</label>
+            </value>
+            <value>
+                <fullName>Axfood</fullName>
+                <default>false</default>
+                <label>Axfood</label>
+            </value>
+            <value>
+                <fullName>Baker Hughes</fullName>
+                <default>false</default>
+                <label>Baker Hughes</label>
+            </value>
+            <value>
+                <fullName>Bama</fullName>
+                <default>false</default>
+                <label>Bama</label>
+            </value>
+            <value>
+                <fullName>BASF</fullName>
+                <default>false</default>
+                <label>BASF</label>
+            </value>
+            <value>
+                <fullName>Baxter - Gambro</fullName>
+                <default>false</default>
+                <label>Baxter - Gambro</label>
+            </value>
+            <value>
+                <fullName>Bergendahl &amp; Son</fullName>
+                <default>false</default>
+                <label>Bergendahl &amp; Son</label>
+            </value>
+            <value>
+                <fullName>Bertel O Steen</fullName>
+                <default>false</default>
+                <label>Bertel O Steen</label>
+            </value>
+            <value>
+                <fullName>Bestseller</fullName>
+                <default>false</default>
+                <label>Bestseller</label>
+            </value>
+            <value>
+                <fullName>Bohus</fullName>
+                <default>false</default>
+                <label>Bohus</label>
+            </value>
+            <value>
+                <fullName>Bonnier</fullName>
+                <default>false</default>
+                <label>Bonnier</label>
+            </value>
+            <value>
+                <fullName>Boozt</fullName>
+                <default>false</default>
+                <label>Boozt</label>
+            </value>
+            <value>
+                <fullName>Bosch</fullName>
+                <default>false</default>
+                <label>Bosch</label>
+            </value>
+            <value>
+                <fullName>Brandsdal Group</fullName>
+                <default>false</default>
+                <label>Brandsdal Group</label>
+            </value>
+            <value>
+                <fullName>Carat</fullName>
+                <default>false</default>
+                <label>Carat</label>
+            </value>
+            <value>
+                <fullName>Carlsberg</fullName>
+                <default>false</default>
+                <label>Carlsberg</label>
+            </value>
+            <value>
+                <fullName>Carolinas Matkasse</fullName>
+                <default>false</default>
+                <label>Carolinas Matkasse</label>
+            </value>
+            <value>
+                <fullName>Clas Ohlson</fullName>
+                <default>false</default>
+                <label>Clas Ohlson</label>
+            </value>
+            <value>
+                <fullName>Coca Cola</fullName>
+                <default>false</default>
+                <label>Coca Cola</label>
+            </value>
+            <value>
+                <fullName>Colorama</fullName>
+                <default>false</default>
+                <label>Colorama</label>
+            </value>
+            <value>
+                <fullName>Coolrunner</fullName>
+                <default>false</default>
+                <label>Coolrunner</label>
+            </value>
+            <value>
+                <fullName>Coop Norge</fullName>
+                <default>false</default>
+                <label>Coop Norge</label>
+            </value>
+            <value>
+                <fullName>Danish Crown</fullName>
+                <default>false</default>
+                <label>Danish Crown</label>
+            </value>
+            <value>
+                <fullName>Departementer</fullName>
+                <default>false</default>
+                <label>Departementer</label>
+            </value>
+            <value>
+                <fullName>DHL</fullName>
+                <default>false</default>
+                <label>DHL</label>
+            </value>
+            <value>
+                <fullName>Dixons</fullName>
+                <default>false</default>
+                <label>Dixons</label>
+            </value>
+            <value>
+                <fullName>DNB</fullName>
+                <default>false</default>
+                <label>DNB</label>
+            </value>
+            <value>
+                <fullName>Draka</fullName>
+                <default>false</default>
+                <label>Draka</label>
+            </value>
+            <value>
+                <fullName>Egmont/Dam</fullName>
+                <default>false</default>
+                <label>Egmont/Dam</label>
+            </value>
+            <value>
+                <fullName>Eika Gruppen</fullName>
+                <default>false</default>
+                <label>Eika Gruppen</label>
+            </value>
+            <value>
+                <fullName>Electrolux</fullName>
+                <default>false</default>
+                <label>Electrolux</label>
+            </value>
+            <value>
+                <fullName>Elektroimportøren</fullName>
+                <default>false</default>
+                <label>Elektroimportøren</label>
+            </value>
+            <value>
+                <fullName>Elkem</fullName>
+                <default>false</default>
+                <label>Elkem</label>
+            </value>
+            <value>
+                <fullName>Ellos</fullName>
+                <default>false</default>
+                <label>Ellos</label>
+            </value>
+            <value>
+                <fullName>Epiroc</fullName>
+                <default>false</default>
+                <label>Epiroc</label>
+            </value>
+            <value>
+                <fullName>Equinor</fullName>
+                <default>false</default>
+                <label>Equinor</label>
+            </value>
+            <value>
+                <fullName>Ericsson</fullName>
+                <default>false</default>
+                <label>Ericsson</label>
+            </value>
+            <value>
+                <fullName>Erikshjälpen</fullName>
+                <default>false</default>
+                <label>Erikshjälpen</label>
+            </value>
+            <value>
+                <fullName>Evry</fullName>
+                <default>false</default>
+                <label>Evry</label>
+            </value>
+            <value>
+                <fullName>FedEx</fullName>
+                <default>false</default>
+                <label>FedEx</label>
+            </value>
+            <value>
+                <fullName>Felleskjøpet</fullName>
+                <default>false</default>
+                <label>Felleskjøpet</label>
+            </value>
+            <value>
+                <fullName>Findus</fullName>
+                <default>false</default>
+                <label>Findus</label>
+            </value>
+            <value>
+                <fullName>Flugger AS</fullName>
+                <default>false</default>
+                <label>Flugger AS</label>
+            </value>
+            <value>
+                <fullName>Forlagssentralen</fullName>
+                <default>false</default>
+                <label>Forlagssentralen</label>
+            </value>
+            <value>
+                <fullName>Forsvaret</fullName>
+                <default>false</default>
+                <label>Forsvaret</label>
+            </value>
+            <value>
+                <fullName>GE Healthcare</fullName>
+                <default>false</default>
+                <label>GE Healthcare</label>
+            </value>
+            <value>
+                <fullName>Getinge</fullName>
+                <default>false</default>
+                <label>Getinge</label>
+            </value>
+            <value>
+                <fullName>GLS</fullName>
+                <default>false</default>
+                <label>GLS</label>
+            </value>
+            <value>
+                <fullName>Gresvig</fullName>
+                <default>false</default>
+                <label>Gresvig</label>
+            </value>
+            <value>
+                <fullName>Gunnebo</fullName>
+                <default>false</default>
+                <label>Gunnebo</label>
+            </value>
+            <value>
+                <fullName>H&amp;M</fullName>
+                <default>false</default>
+                <label>H&amp;M</label>
+            </value>
+            <value>
+                <fullName>Haldex</fullName>
+                <default>false</default>
+                <label>Haldex</label>
+            </value>
+            <value>
+                <fullName>Helly Hansen</fullName>
+                <default>false</default>
+                <label>Helly Hansen</label>
+            </value>
+            <value>
+                <fullName>Hexagon</fullName>
+                <default>false</default>
+                <label>Hexagon</label>
+            </value>
+            <value>
+                <fullName>HK SCAN</fullName>
+                <default>false</default>
+                <label>HK SCAN</label>
+            </value>
+            <value>
+                <fullName>Husqvarna</fullName>
+                <default>false</default>
+                <label>Husqvarna</label>
+            </value>
+            <value>
+                <fullName>ICA</fullName>
+                <default>false</default>
+                <label>ICA</label>
+            </value>
+            <value>
+                <fullName>IKEA</fullName>
+                <default>false</default>
+                <label>IKEA</label>
+            </value>
+            <value>
+                <fullName>Indutrade</fullName>
+                <default>false</default>
+                <label>Indutrade</label>
+            </value>
+            <value>
+                <fullName>Infocare</fullName>
+                <default>false</default>
+                <label>Infocare</label>
+            </value>
+            <value>
+                <fullName>Inwido</fullName>
+                <default>false</default>
+                <label>Inwido</label>
+            </value>
+            <value>
+                <fullName>ISS</fullName>
+                <default>false</default>
+                <label>ISS</label>
+            </value>
+            <value>
+                <fullName>Itella</fullName>
+                <default>false</default>
+                <label>Itella</label>
+            </value>
+            <value>
+                <fullName>JM</fullName>
+                <default>false</default>
+                <label>JM</label>
+            </value>
+            <value>
+                <fullName>Joh Johannson</fullName>
+                <default>false</default>
+                <label>Joh Johannson</label>
+            </value>
+            <value>
+                <fullName>Kingsrød</fullName>
+                <default>false</default>
+                <label>Kingsrød</label>
+            </value>
+            <value>
+                <fullName>KLS Ugglarps</fullName>
+                <default>false</default>
+                <label>KLS Ugglarps</label>
+            </value>
+            <value>
+                <fullName>KOMPLETT GROUP</fullName>
+                <default>false</default>
+                <label>KOMPLETT GROUP</label>
+            </value>
+            <value>
+                <fullName>Kraft Foods</fullName>
+                <default>false</default>
+                <label>Kraft Foods</label>
+            </value>
+            <value>
+                <fullName>Lantmännen</fullName>
+                <default>false</default>
+                <label>Lantmännen</label>
+            </value>
+            <value>
+                <fullName>Lidl</fullName>
+                <default>false</default>
+                <label>Lidl</label>
+            </value>
+            <value>
+                <fullName>Lifco</fullName>
+                <default>false</default>
+                <label>Lifco</label>
+            </value>
+            <value>
+                <fullName>Lufthansa Group</fullName>
+                <default>false</default>
+                <label>Lufthansa Group</label>
+            </value>
+            <value>
+                <fullName>Løvenskiold</fullName>
+                <default>false</default>
+                <label>Løvenskiold</label>
+            </value>
+            <value>
+                <fullName>Martin &amp; Servera</fullName>
+                <default>false</default>
+                <label>Martin &amp; Servera</label>
+            </value>
+            <value>
+                <fullName>Mekonomen</fullName>
+                <default>false</default>
+                <label>Mekonomen</label>
+            </value>
+            <value>
+                <fullName>Modern Times</fullName>
+                <default>false</default>
+                <label>Modern Times</label>
+            </value>
+            <value>
+                <fullName>Musti Group</fullName>
+                <default>false</default>
+                <label>Musti Group</label>
+            </value>
+            <value>
+                <fullName>NAV</fullName>
+                <default>false</default>
+                <label>NAV</label>
+            </value>
+            <value>
+                <fullName>NCC</fullName>
+                <default>false</default>
+                <label>NCC</label>
+            </value>
+            <value>
+                <fullName>Nestlé</fullName>
+                <default>false</default>
+                <label>Nestlé</label>
+            </value>
+            <value>
+                <fullName>Netcom</fullName>
+                <default>false</default>
+                <label>Netcom</label>
+            </value>
+            <value>
+                <fullName>NetOnNet Group AB</fullName>
+                <default>false</default>
+                <label>NetOnNet Group AB</label>
+            </value>
+            <value>
+                <fullName>Nets</fullName>
+                <default>false</default>
+                <label>Nets</label>
+            </value>
+            <value>
+                <fullName>Nibe</fullName>
+                <default>false</default>
+                <label>Nibe</label>
+            </value>
+            <value>
+                <fullName>Nille</fullName>
+                <default>false</default>
+                <label>Nille</label>
+            </value>
+            <value>
+                <fullName>Norgesgruppen</fullName>
+                <default>false</default>
+                <label>Norgesgruppen</label>
+            </value>
+            <value>
+                <fullName>Norsk Gjenvinning</fullName>
+                <default>false</default>
+                <label>Norsk Gjenvinning</label>
+            </value>
+            <value>
+                <fullName>Norsk Hydro</fullName>
+                <default>false</default>
+                <label>Norsk Hydro</label>
+            </value>
+            <value>
+                <fullName>Nortura</fullName>
+                <default>false</default>
+                <label>Nortura</label>
+            </value>
+            <value>
+                <fullName>Norway Royal Salmon</fullName>
+                <default>false</default>
+                <label>Norway Royal Salmon</label>
+            </value>
+            <value>
+                <fullName>Orkla</fullName>
+                <default>false</default>
+                <label>Orkla</label>
+            </value>
+            <value>
+                <fullName>Oslo Kommune</fullName>
+                <default>false</default>
+                <label>Oslo Kommune</label>
+            </value>
+            <value>
+                <fullName>Partnertech</fullName>
+                <default>false</default>
+                <label>Partnertech</label>
+            </value>
+            <value>
+                <fullName>Peab</fullName>
+                <default>false</default>
+                <label>Peab</label>
+            </value>
+            <value>
+                <fullName>Picadeli</fullName>
+                <default>false</default>
+                <label>Picadeli</label>
+            </value>
+            <value>
+                <fullName>Posten Norge</fullName>
+                <default>false</default>
+                <label>Posten Norge</label>
+            </value>
+            <value>
+                <fullName>PostNord</fullName>
+                <default>false</default>
+                <label>PostNord</label>
+            </value>
+            <value>
+                <fullName>Princess</fullName>
+                <default>false</default>
+                <label>Princess</label>
+            </value>
+            <value>
+                <fullName>Protan</fullName>
+                <default>false</default>
+                <label>Protan</label>
+            </value>
+            <value>
+                <fullName>Qliro Group</fullName>
+                <default>false</default>
+                <label>Qliro Group</label>
+            </value>
+            <value>
+                <fullName>Rema</fullName>
+                <default>false</default>
+                <label>Rema</label>
+            </value>
+            <value>
+                <fullName>SAAB</fullName>
+                <default>false</default>
+                <label>SAAB</label>
+            </value>
+            <value>
+                <fullName>Samsung</fullName>
+                <default>false</default>
+                <label>Samsung</label>
+            </value>
+            <value>
+                <fullName>Sandvik</fullName>
+                <default>false</default>
+                <label>Sandvik</label>
+            </value>
+            <value>
+                <fullName>SCA Hygiene</fullName>
+                <default>false</default>
+                <label>SCA Hygiene</label>
+            </value>
+            <value>
+                <fullName>Scania</fullName>
+                <default>false</default>
+                <label>Scania</label>
+            </value>
+            <value>
+                <fullName>Schlumberger</fullName>
+                <default>false</default>
+                <label>Schlumberger</label>
+            </value>
+            <value>
+                <fullName>Schneider</fullName>
+                <default>false</default>
+                <label>Schneider</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>Skanska</fullName>
+                <default>false</default>
+                <label>Skanska</label>
+            </value>
+            <value>
+                <fullName>Skeidar Living Group</fullName>
+                <default>false</default>
+                <label>Skeidar Living Group</label>
+            </value>
+            <value>
+                <fullName>SKF</fullName>
+                <default>false</default>
+                <label>SKF</label>
+            </value>
+            <value>
+                <fullName>SSAB</fullName>
+                <default>false</default>
+                <label>SSAB</label>
+            </value>
+            <value>
+                <fullName>Staples</fullName>
+                <default>false</default>
+                <label>Staples</label>
+            </value>
+            <value>
+                <fullName>Statoil Fuel &amp; Retail</fullName>
+                <default>false</default>
+                <label>Statoil Fuel &amp; Retail</label>
+            </value>
+            <value>
+                <fullName>Stora Enso</fullName>
+                <default>false</default>
+                <label>Stora Enso</label>
+            </value>
+            <value>
+                <fullName>Sykehusinnkjøp</fullName>
+                <default>false</default>
+                <label>Sykehusinnkjøp</label>
+            </value>
+            <value>
+                <fullName>Techdata</fullName>
+                <default>false</default>
+                <label>Techdata</label>
+            </value>
+            <value>
+                <fullName>Technip</fullName>
+                <default>false</default>
+                <label>Technip</label>
+            </value>
+            <value>
+                <fullName>Telenor</fullName>
+                <default>false</default>
+                <label>Telenor</label>
+            </value>
+            <value>
+                <fullName>Tetra Laval</fullName>
+                <default>false</default>
+                <label>Tetra Laval</label>
+            </value>
+            <value>
+                <fullName>Trelleborg</fullName>
+                <default>false</default>
+                <label>Trelleborg</label>
+            </value>
+            <value>
+                <fullName>Uddeholm</fullName>
+                <default>false</default>
+                <label>Uddeholm</label>
+            </value>
+            <value>
+                <fullName>UPS</fullName>
+                <default>false</default>
+                <label>UPS</label>
+            </value>
+            <value>
+                <fullName>Vaasan</fullName>
+                <default>false</default>
+                <label>Vaasan</label>
+            </value>
+            <value>
+                <fullName>Validus</fullName>
+                <default>false</default>
+                <label>Validus</label>
+            </value>
+            <value>
+                <fullName>Varner</fullName>
+                <default>false</default>
+                <label>Varner</label>
+            </value>
+            <value>
+                <fullName>Volvo</fullName>
+                <default>false</default>
+                <label>Volvo</label>
+            </value>
+            <value>
+                <fullName>VWR International</fullName>
+                <default>false</default>
+                <label>VWR International</label>
+            </value>
+            <value>
+                <fullName>Wärtsilä</fullName>
+                <default>false</default>
+                <label>Wärtsilä</label>
+            </value>
+            <value>
+                <fullName>Whirlpool</fullName>
+                <default>false</default>
+                <label>Whirlpool</label>
+            </value>
+            <value>
+                <fullName>XXL</fullName>
+                <default>false</default>
+                <label>XXL</label>
+            </value>
+            <value>
+                <fullName>Zalando</fullName>
+                <default>false</default>
+                <label>Zalando</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

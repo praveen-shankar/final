@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_user_edit_of_fields_from_OEBS</fullName>
+    <active>true</active>
+    <description>Denies editing of fields on account records which are maintained by OEBS.
+Only sysadmin or KATS system user profile can edit accounts from OEBS, which can be recognised by having the Party_number__c field not equal null.</description>
+    <errorConditionFormula>AND(
+NOT(  is_system_update__c || $Profile.Name = &apos;KATS system user&apos; || $Profile.Name = &apos;System Administrator&apos; || $Profile.Name = &apos;CRM Integration User&apos;|| $Profile.Name = &apos;CS Admin&apos; ||  crm_Lead_mapped_field__c = &apos;1&apos; ||$Profile.Name = &apos;Custom System Admin&apos;) ,
+IF(
+OR(
+ISCHANGED( Party_number__c ),
+AND(ISNEW(),NOT(ISBLANK(Party_number__c)))
+), TRUE,
+IF(ISBLANK( Party_number__c ), FALSE,
+OR(
+ISCHANGED( Name ) ,
+ISCHANGED( FirstName ) ,
+ISCHANGED( LastName ) ,
+ISCHANGED( status__c ) ,
+ISCHANGED( BillingCity ) ,
+ISCHANGED( BillingCountry ) ,
+ISCHANGED( BillingState ) ,
+ISCHANGED( BillingStreet ) ,
+ISCHANGED( BillingPostalCode ) ,
+ISCHANGED( ShippingCity ) ,
+ISCHANGED( ShippingCountry ) ,
+ISCHANGED( ShippingState ) ,
+ISCHANGED( ShippingStreet ) ,
+ISCHANGED( ShippingPostalCode )
+)
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Party_number__c</errorDisplayField>
+    <errorMessage>Kunde hentet fra fagsystem kan ikke oppdateres i Service Cloud. Oppdater i fagsystemet og bruk Oppdater Kundeinformasjon. Det er ikke tillatt å endre eller legge til aktørnummer på kunder direkte i Service Cloud.</errorMessage>
+</ValidationRule>

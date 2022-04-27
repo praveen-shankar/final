@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>status_update_UI__c</fullName>
+    <description>CSPhase2 Dinesh Label Change 26/12/2016,Akshata replaced party_number__c with crm_customer_number__c</description>
+    <externalId>false</externalId>
+    <formula>IF(crm_Updated_by_CDH__c, &quot;Kundemaster&quot;,
+IF( ISBLANK(crm_Customer_Number__c), 
+  &quot;N/A&quot;,
+  IF(ISPICKVAL(status_update__c,&apos;Updating&apos;),$Label.cs_updating,
+  IF(ISPICKVAL(status_update__c,&apos;Last update failed&apos;),$Label.cs_Last_update_failed,
+  IF(ISPICKVAL(status_update__c,&apos;Ready for update&apos;),$Label.cs_Ready_for_update,
+  IF(ISPICKVAL(status_update__c,&apos;Inactive customer&apos;),$Label.cs_inactive_customer,
+  If(ISPICKVAL(status_update__c,&apos;Never updated&apos;),$Label.cs_Never_updated,&apos;&apos;)
+  )
+  )
+  )
+  ) + &quot; : (&quot;+$Label.cs_lastupdated+&quot; &quot; + TEXT(last_updated__c) + &quot;)&quot;
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Updated</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

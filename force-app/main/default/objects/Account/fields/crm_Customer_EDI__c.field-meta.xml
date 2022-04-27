@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_Customer_EDI__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer EDI</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>true</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Axia Frakt</fullName>
+                <default>false</default>
+                <label>Axia Frakt</label>
+            </value>
+            <value>
+                <fullName>Consignor</fullName>
+                <default>false</default>
+                <label>Consignor</label>
+            </value>
+            <value>
+                <fullName>MyBring</fullName>
+                <default>false</default>
+                <label>MyBring</label>
+            </value>
+            <value>
+                <fullName>Proteria</fullName>
+                <default>false</default>
+                <label>Proteria</label>
+            </value>
+            <value>
+                <fullName>Unifaun</fullName>
+                <default>false</default>
+                <label>Unifaun</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Logistra/Cargoniser</fullName>
+                <default>false</default>
+                <label>Logistra/Cargoniser</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

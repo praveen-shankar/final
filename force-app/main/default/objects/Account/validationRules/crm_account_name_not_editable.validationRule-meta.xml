@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>crm_account_name_not_editable</fullName>
+    <active>true</active>
+    <description>Account name cannot be edited for Relation/Party</description>
+    <errorConditionFormula>IF( NOT(crm_Skip_Validation__c == true), AND( NOT( $User.Id = CreatedBy.Id ), NOT( $User.Id = Owner.Id ), $Profile.Name = $Setup.crm_Profile_Names__c.crm_Profile_Name__c , 
+NOT(RecordType.DeveloperName =&apos;crm_Prospect&apos;), 
+ISCHANGED(Name), 
+$Setup.crm_Skip_Validation__c.crm_Enable_Custom_Validation__c), null)</errorConditionFormula>
+    <errorMessage>Account name cannot be edited for Relation/Party</errorMessage>
+</ValidationRule>

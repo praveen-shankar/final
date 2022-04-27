@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bring_Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Bring Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cars</fullName>
+                <default>false</default>
+                <label>Cars</label>
+            </value>
+            <value>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+                <label>Electronics</label>
+            </value>
+            <value>
+                <fullName>Furniture and interior</fullName>
+                <default>false</default>
+                <label>Furniture and interior</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Agiculture and forestry</fullName>
+                <default>false</default>
+                <label>Agiculture and forestry</label>
+            </value>
+            <value>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+                <label>Grocery</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Boat</fullName>
+                <default>false</default>
+                <label>Boat</label>
+            </value>
+            <value>
+                <fullName>Fish</fullName>
+                <default>false</default>
+                <label>Fish</label>
+            </value>
+            <value>
+                <fullName>E-commerce</fullName>
+                <default>false</default>
+                <label>E-commerce</label>
+            </value>
+            <value>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+                <label>Publisher</label>
+            </value>
+            <value>
+                <fullName>Clothes, Textiles, Shoes</fullName>
+                <default>false</default>
+                <label>Clothes, Textiles, Shoes</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Alcoholic beverage</fullName>
+                <default>false</default>
+                <label>Alcoholic beverage</label>
+            </value>
+            <value>
+                <fullName>Machines</fullName>
+                <default>false</default>
+                <label>Machines</label>
+            </value>
+            <value>
+                <fullName>Metal</fullName>
+                <default>false</default>
+                <label>Metal</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Advertising, design and communication</fullName>
+                <default>false</default>
+                <label>Advertising, design and communication</label>
+            </value>
+            <value>
+                <fullName>Plastic and rubber</fullName>
+                <default>false</default>
+                <label>Plastic and rubber</label>
+            </value>
+            <value>
+                <fullName>VVS</fullName>
+                <default>false</default>
+                <label>VVS</label>
+            </value>
+            <value>
+                <fullName>Paper</fullName>
+                <default>false</default>
+                <label>Paper</label>
+            </value>
+            <value>
+                <fullName>Oil and offshore</fullName>
+                <default>false</default>
+                <label>Oil and offshore</label>
+            </value>
+            <value>
+                <fullName>Transport and distribution</fullName>
+                <default>false</default>
+                <label>Transport and distribution</label>
+            </value>
+            <value>
+                <fullName>Maritime industry</fullName>
+                <default>false</default>
+                <label>Maritime industry</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Petroleum</fullName>
+                <default>false</default>
+                <label>Petroleum</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Recycling</fullName>
+                <default>false</default>
+                <label>Recycling</label>
+            </value>
+            <value>
+                <fullName>Aviation</fullName>
+                <default>false</default>
+                <label>Aviation</label>
+            </value>
+            <value>
+                <fullName>Photo</fullName>
+                <default>false</default>
+                <label>Photo</label>
+            </value>
+            <value>
+                <fullName>Storage</fullName>
+                <default>false</default>
+                <label>Storage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

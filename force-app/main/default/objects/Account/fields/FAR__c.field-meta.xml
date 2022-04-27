@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FAR__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that the account has been created through the customer search towards FAR. Accounts that have this field checked can be updated with details from FAR</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that the account has been created through the customer search towards FAR. Accounts that have this field checked can be updated with details from FAR</inlineHelpText>
+    <label>Updated by FAR</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
